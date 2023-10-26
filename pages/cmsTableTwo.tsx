@@ -14,7 +14,7 @@ export const getStaticProps = async () => {
   };
 };
 
-const CmsTableTwo: NextPage = ({ data }) => {
+const CmsTableTwo: NextPage = ({ data }: any) => {
   const [currentPage, setCurrentPage] = useState(1);
   const pageSize = 10;
 
