@@ -3,7 +3,6 @@ import {
   Dashboard,
   Done,
   AddCircleOutline,
-  Logout,
   AddChart,
 } from "@styled-icons/material";
 

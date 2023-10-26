@@ -13,7 +13,7 @@ type MenuItemProps = {
 export default function MenuItem({
   menuItem: { name, icon: Icon, url, depth, subItems },
 }: MenuItemProps) {
-  const [isExpanded, toggleExpanded] = useState(false);
+  const [isExpanded, toggleExpanded] = useState<boolean>(false);
 
   const router = useRouter();
   const selected = router.asPath === url;
@@ -26,19 +26,9 @@ export default function MenuItem({
   return (
     <>
       <MenuItemContainer className={selected ? "selected" : ""} depth={depth}>
-        <Link href={url}  passHref>
+        <Link href={url} passHref>
           <div className="menu-item">
-            <Icon
-              style={{
-                width: 30,
-                height: 30,
-                padding:  5,
-                marginRight: 15,
-                background: selected ? "white" : "transparent",
-                color: "#11244a",
-                borderRadius: "100%",
-              }}
-            />
+            <Icon />
             <span>{name}</span>
           </div>
         </Link>
