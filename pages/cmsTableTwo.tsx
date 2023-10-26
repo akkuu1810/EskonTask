@@ -26,7 +26,7 @@ const CmsTableTwo: NextPage = ({ data }) => {
 
   return (
     <DashboardLayout>
-      <Container title="New Orders">
+      <Container title="CMS Table Two">
         <div className="flex customAlign">
           <div>
             <h1>CmsTableTwo</h1>

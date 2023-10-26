@@ -5,7 +5,7 @@ import DashboardLayout from "../components/DashboardLayout/DashboardLayout";
 const CmsTableOne: NextPage = () => {
   return (
     <DashboardLayout>
-      <Container title="New Orders">
+      <Container title="CMS Table One">
         <div>CmsTableOne</div>
       </Container>
     </DashboardLayout>

@@ -81,5 +81,8 @@ a {
   border: 1px solid #eaeaea;
   border-radius: 0.5rem;
   cursor: pointer;
-  background-color: red;
+  color:  white;
+  background-color: #0070f3;
+  box-shadow: 0 2px 4px 0 rgba(17, 36, 74, 0.1),
+    0 3px 10px 0 rgba(17, 36, 74, 0.1);
 }
