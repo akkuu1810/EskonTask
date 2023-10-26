@@ -9,6 +9,12 @@ export const authOptions = {
       clientSecret: "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",
     }),
   ],
+  callbacks: {
+    authorized: ({ token }) => {
+      console.log("Authorized callback, token: ", token);
+      return !!token;
+    },
+  },
   session: {
     strategy: "jwt",
   },
