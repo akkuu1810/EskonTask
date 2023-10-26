@@ -35,6 +35,7 @@ const MENU_OPTIONS: MenuOption[] = [
     ],
   },
 ];
+console.log(process.env);
 
 export type MenuItem = {
   name: string;
