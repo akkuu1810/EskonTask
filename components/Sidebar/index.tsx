@@ -3,7 +3,7 @@ import { MENU_ITEMS } from "../../constants/menu-items";
 import MenuItemsList from "../MenuItemsList";
 import { Logout } from "@styled-icons/material";
 import { signOut, useSession } from "next-auth/react";
-import { setAuthState, setUserState } from "../../pages/redux/authSlice";
+import { setAuthState, setUserState } from "../../redux/authSlice";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";

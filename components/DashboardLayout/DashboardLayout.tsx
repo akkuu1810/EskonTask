@@ -3,7 +3,7 @@ import Header from "../Header";
 import Sidebar from "../Sidebar";
 import { Container, Content, PageContainer } from "./DashboardLayout.styles";
 import { useSelector } from "react-redux";
-import { selectAuthState, selectUserState } from "../../pages/redux/authSlice";
+import { selectAuthState, selectUserState } from "../../redux/authSlice";
 import { useRouter } from "next/router";
 
 type DashboardLayoutProps = {

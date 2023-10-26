@@ -5,7 +5,7 @@ import {
   TitleContainer,
 } from "./Header.styles";
 import { useSelector } from "react-redux";
-import { selectUserState } from "../../pages/redux/authSlice";
+import { selectUserState } from "../../redux/authSlice";
 import Image from "next/image";
 
 type HeaderProps = {

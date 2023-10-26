@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Container from "../components/Container";
 import DashboardLayout from "../components/DashboardLayout/DashboardLayout";
 import { useSelector } from "react-redux";
-import { selectUserState } from "./redux/authSlice";
+import { selectUserState } from "../redux/authSlice";
 import Image from "next/image";
 import styled from "styled-components";
 

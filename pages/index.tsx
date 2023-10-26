@@ -3,7 +3,7 @@ import Container from "../components/Container";
 import styled from "styled-components";
 import { signIn, useSession } from "next-auth/react";
 import { useDispatch, useSelector } from "react-redux";
-import { selectAuthState, setAuthState, setUserState } from "./redux/authSlice";
+import { selectAuthState, setAuthState, setUserState } from "../redux/authSlice";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 

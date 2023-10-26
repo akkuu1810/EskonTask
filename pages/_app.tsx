@@ -2,7 +2,7 @@ import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import { ThemeProvider } from "styled-components";
 import { theme } from "../styles/theme";
-import { wrapper } from "./redux/store";
+import { wrapper } from "../redux/store";
 import { useStore } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
 import { SessionProvider } from "next-auth/react";
